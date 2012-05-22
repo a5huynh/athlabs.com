@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang='en'>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>athlabs: about</title>
+	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+	<title>athlabs: about me</title>
 	
 	<link href='http://fonts.googleapis.com/css?family=Inconsolata|Droid+Serif' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="/static/css/layout.css" type="text/css" rel='stylesheet'>		
-	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel='stylesheet' href='/static/css/layout.css' type='text/css' rel='stylesheet'>		
+	<link rel='shortcut icon' href='favicon.ico'>
 </head>
 <body>
 	<div class='container_12'>
@@ -69,13 +69,13 @@
 				</div>
 			</div>
 			<div id='navbar' class='grid_5'>
-				<div class='ido selected' data-page='who_am_i'>
+				<div id='who_am_i_tab' class='ido selected' data-page='who_am_i'>
 					<div><img alt='question mark' src='/static/img/question.png'> who is this guy?</div>
 				</div>
-				<div class='ido' data-page='news'>
+				<div id='news_tab' class='ido' data-page='news'>
 					<div><img alt='newspaper' src='/static/img/newspaper.png'> me in the news.</div>
 				</div>
-				<div class='ido' data-page='research'>
+				<div id='research_tab' class='ido' data-page='research'>
 					<div><img alt='radiation symbol' src='/static/img/science.png'> i do science.</div>
 				</div>
 				<div class='ido' data-page='none'>
@@ -83,7 +83,7 @@
 						<div><img alt='computer' src='/static/img/computer.png'> i code.</div>
 					</a>
 				</div>
-				<div class='ido' data-page='tech'>
+				<div id='tech_tab' class='ido' data-page='tech'>
 					<div><img alt='computer' src='/static/img/gears.png'></div>
 				</div>
 			</div>
@@ -94,7 +94,7 @@
 			<p>An athlabs production. Like what you see? My website is <a href='https://github.com/a5huynh/athlabs.com'>open source!</a></p>
 		</div>
 	</div>
-	<script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-	<script type="text/javascript" src='/static/js/init.js'></script>
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+	<script type='text/javascript' src='/static/js/init.js'></script>
 </body>
 </html>
