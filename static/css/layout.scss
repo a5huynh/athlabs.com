@@ -39,7 +39,7 @@ body > div {
 }
 
 em {
-	color:$blue;
+	color: $blue;
 }
 
 h2,.header {
@@ -86,6 +86,11 @@ img {
 	margin-bottom:16px;
 }
 
+.footer {
+	color: #AAA;
+	font-size:12px; 
+}
+
 #big-name {
 	border-right:4px solid orange;
 	font-size:84px;
@@ -106,28 +111,30 @@ img {
 }
 
 /* Header's inside article will have a nice code comment effect */
-.article > h2:before {
-	content: '# '; 
-}
+.article {
 
-.article > h2 {
-	font-family: $header-font;
-	font-size:		22px;
-	font-weight:	normal;
-	color:			orange; 
-	padding:0;
-	margin: 0 0 8px 0;
-}
+	h2:before {
+		content: '# '; 
+	}
 
-.article > .github-link {
-	margin-top:8px;
-	font-size:12px;
-	padding:8px;
-}
+	h2 {
+		font-family: $header-font;
+		font-size:		22px;
+		font-weight:	normal;
+		color:			$orange; 
+		padding:0;
+		margin: 0 0 8px 0;
+	}
 
-.footer {
-	color: #AAA;
-	font-size:12px; 
+	h3 {
+		color: $orange;
+	}
+
+	.github-link {
+		margin-top:8px;
+		font-size:12px;
+		padding:8px;
+	}
 }
 
 /* Tab styles */
@@ -190,5 +197,9 @@ ul.news_clippings {
 		a {
 			font-style: italic;
 		}
+	}
+
+	.caption {
+		font-size: 14px;
 	}
 }
