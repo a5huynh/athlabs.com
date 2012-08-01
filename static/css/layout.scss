@@ -42,18 +42,18 @@ em {
 h2,.header {
 	font-family: $header-font;
 	/* A nice easy-to-use auto-clearing technique */
-	overflow: hidden;	
+	overflow: hidden;
 	width: 100%;
 }
 
 a, a:hover, a:active, a:visited {
 	text-decoration: none;
-	color: $blue; 
+	color: $blue;
 	border-bottom:1px dotted $grey;
 }
 
 img {
-	vertical-align: middle; 
+	vertical-align: middle;
 }
 
 #navbar {
@@ -80,7 +80,7 @@ img {
 	font-size:16px;
 	color: $blue;
 	font-weight: normal;
-	font-family: $header-font; 
+	font-family: $header-font;
 	margin-bottom:4px;
 }
 
@@ -94,7 +94,7 @@ img {
 
 .footer {
 	color: #AAA;
-	font-size:12px; 
+	font-size:12px;
 }
 
 #big-name {
@@ -111,32 +111,126 @@ img {
 	margin-right:8px;
 }
 
+#navbar {
+
+	.ido > div {
+		padding-left: 104px;
+	}
+
+	.question-mark {
+		background: url( '/static/img/question.png' ) no-repeat 32px 16px;
+	}
+
+	.newspaper {
+		background: url( '/static/img/newspaper.png' ) no-repeat 32px 16px;
+	}
+
+	.radiation {
+		background: url( '/static/img/science.png' ) no-repeat 32px 16px;
+	}
+
+	.github {
+		background: url( '/static/img/computer.png' ) no-repeat 32px 16px;
+		padding-left: 104px;
+	}
+
+	.gears {
+		background: url( '/static/img/gears.png' ) no-repeat 32px 16px;
+	}
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		.question-mark {
+			background: url( '/static/img/question-2x.png' ) no-repeat 32px 16px;
+			background-size: 48px 48px;
+		}
+
+		.newspaper {
+			background: url( '/static/img/newspaper-2x.png' ) no-repeat 32px 16px;
+			background-size: 48px 48px;
+		}
+
+		.radiation {
+			background: url( '/static/img/radiation-2x.png' ) no-repeat 32px 16px;
+			background-size: 48px 48px;
+		}
+
+		.github {
+			background: url( '/static/img/computer-2x.png' ) no-repeat 32px 16px;
+			background-size: 48px 48px;
+		}
+
+		.gears {
+			background: url( '/static/img/gears-2x.png' ) no-repeat 32px 16px;
+			background-size: 48px 48px;
+		}
+	}
+}
+
 #social-icons {
 	text-align:right;
 	padding-top:8px;
+
+	> a {
+		display:block;
+		margin-top:4px;
+		width: 24px;
+		height: 24px;
+		border:0;
+	}
+
+	.email-icon {
+		background: url( '/static/img/email.png' ) no-repeat;
+	}
+
+	.twitter-icon {
+		background: url( '/static/img/twitter.png' ) no-repeat;
+	}
+
+	.linkedin-icon {
+		background: url( '/static/img/linkedin.png' ) no-repeat;
+	}
+
+	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+		.email-icon {
+			background: url( '/static/img/email-2x.png' ) no-repeat;
+			background-size: 24px 24px;
+		}
+
+		.twitter-icon {
+			background: url( '/static/img/twitter-2x.png' ) no-repeat;
+			background-size: 24px 24px;
+		}
+
+		.linkedin-icon {
+			background: url( '/static/img/linkedin-2x.png' ) no-repeat;
+			background-size: 24px 24px;
+		}
+	}
 }
 
 /* Header's inside article will have a nice code comment effect */
 .article {
 
+	margin-bottom:32px;
+
 	a.header {
 		font-family: 	$header-font;
 		font-size:		26px;
 		font-weight:	normal;
-		color:			$orange; 
+		color:			$orange;
 		text-decoration: none;
 		border-bottom:1px dotted $grey;
 	}
 
 	h2:before {
-		content: '# '; 
+		content: '# ';
 	}
 
 	h2 {
 		font-family: 	$header-font;
 		font-size:		26px;
 		font-weight:	normal;
-		color:			$orange; 
+		color:			$orange;
 		padding:0;
 		margin: 0 0 8px 0;
 	}
@@ -151,6 +245,10 @@ img {
 		font-size:12px;
 		padding:8px;
 	}
+
+	p {
+		line-height: 28px;
+	}
 }
 
 /* Tab styles */
@@ -158,33 +256,33 @@ img {
 	width: 398px;
 	cursor:pointer;
 	color: #DDD;
-	border-left:4px solid #FFF;
+	border-left:4px solid transparent;
 	margin-bottom:16px;
 
 	a {
-		color: #DDD !important;		
+		color: #DDD !important;
 	}
-	
+
 	div {
 		padding: 16px 32px;
-		
+
 		img {
-			margin-right: 16px; 
-		} 
-	} 
+			margin-right: 16px;
+		}
+	}
 }
 
 .ido:hover {
 	border-left:4px solid $grey !important;
-	color:#000 !important; 
+	color:#000 !important;
 
 	a {
-		color:#000 !important; 
+		color:#000 !important;
 	}
 }
 
-.selected { 
-	color:#000 !important; 
+.selected {
+	color:#000 !important;
 }
 
 /* Content pages */
@@ -194,22 +292,22 @@ img {
 
 .infopage {
 	padding-right:16px;
-	display:none; 
+	display:none;
 }
 
 .inview {
-	display:block !important; 
+	display:block !important;
 }
 
 /* Some special style for the news clipping page */
 ul.news_clippings {
 	list-style-type:none;
 	padding:0;
-	margin:0; 
-	
+	margin:0;
+
 	li {
 		margin-bottom:16px;
-		
+
 		a {
 			font-style: italic;
 		}
