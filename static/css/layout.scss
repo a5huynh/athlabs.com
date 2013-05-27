@@ -13,7 +13,6 @@ $black:  #666;
 @import "960_12_col";
 
 body {
-	background: url('/static/img/light_wool.png') repeat;
 }
 
 *::selection {
@@ -50,6 +49,10 @@ a, a:hover, a:active, a:visited {
 	text-decoration: none;
 	color: $blue;
 	border-bottom:1px dotted $grey;
+
+	.image {
+		border: 0;
+	}
 }
 
 img {
