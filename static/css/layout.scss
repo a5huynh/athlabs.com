@@ -38,7 +38,7 @@ em {
 	color: $blue;
 }
 
-h2,.header {
+h2, h3, h4, .header {
 	font-family: $header-font;
 	/* A nice easy-to-use auto-clearing technique */
 	overflow: hidden;
@@ -240,7 +240,11 @@ img {
 
 
 	h3 {
-		color: $orange;
+		font-size: 20px;
+		font-weight: normal;
+		font-style: normal;
+		padding:0;
+		margin: 16px 0 0 0;
 	}
 
 	.github-link {
