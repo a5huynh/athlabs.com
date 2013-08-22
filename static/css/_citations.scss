@@ -1,0 +1,49 @@
+// Citation style for "research" page.
+ul.citations {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+
+	li {
+		padding: 8px;
+	}
+
+	div.authors {
+		color: #666;
+	}
+
+	div.authors, div.publication, div.media {
+		padding-left: 32px;
+		font-size: 90%;
+	}
+
+	div.title {
+	}
+
+	div.media {
+		a {
+			margin-right: 4px;
+		}
+
+		a:before {
+			content: "[";
+		}
+
+		a:after {
+			content: "]";
+		}
+	}
+
+	div.publication {
+		color: $blue;
+
+		span.year:before {
+			content: "(";
+		}
+
+		span.year:after {
+			content: ")";
+		}
+	}
+
+}

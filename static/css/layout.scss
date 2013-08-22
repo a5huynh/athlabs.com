@@ -318,9 +318,12 @@ ul.news_clippings {
 		a {
 			font-style: italic;
 		}
+
 	}
 
 	.caption {
 		font-size: 14px;
 	}
 }
+
+@import "_citations";
