@@ -47,11 +47,5 @@ $(function() {
   if (window.location.hash != null) {
     select_tab($("" + window.location.hash + "_tab"));
   }
-  $('.ido').click(function() {
-    if ($(this).data('page') !== 'none') {
-      select_tab($(this));
-    }
-    return this;
-  });
   return this;
 });

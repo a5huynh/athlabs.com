@@ -1,19 +1,10 @@
-// Font's used in the site
-$header-font: "Inconsolata", sans-serif;
-$content-font: "Droid Serif", Georgia, 'Times New Roman', serif;
-
-// Colors used in the site
-$orange: #ff8000;
-$blue:   #1691d8;
-$grey:	 #999;
-$black:  #666;
+---
+---
 
 /* Import our HTML5 reset and 960 grid css */
-@import "reset";
-@import "960_12_col";
-
-body {
-}
+@import "_constants";
+@import "_reset";
+@import "_960";
 
 *::selection {
 	background: $orange;
@@ -88,11 +79,11 @@ img {
 }
 
 .article {
-	font-size:   16px;
-	font-family: $content-font;
-	line-height: 155%;
-	color:		 #000;
-	margin-bottom:16px;
+	font-size:     16px;
+	font-family:   $content-font;
+	line-height:   175%;
+	color:		   #000;
+	margin-bottom: 16px;
 }
 
 .footer {
@@ -101,22 +92,28 @@ img {
 }
 
 #big-name {
-	border-right:4px solid $orange;
-	font-size:84px;
+	border-right: 8px solid $orange;
+	font-size: 84px;
+
+	a {
+		border: 0;
+		text-decoration: none;
+		color: black;
+	}
 }
 
 #my-attrs {
-	float:left;
-	padding-left:20px;
-	padding-top:11px;
-	font-size:32px;
-	width: 288px;
-	margin-right:8px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 11px;
+	font-size: 32px;
+	width: 284px;
+	margin-right: 8px;
 }
 
 #navbar {
 
-	.ido > div {
+	.ido div {
 		padding-left: 104px;
 	}
 
@@ -170,45 +167,13 @@ img {
 }
 
 #social-icons {
-	text-align:right;
-	padding-top:8px;
+	text-align: right;
+	padding-top: 8px;
 
-	> a {
-		display:block;
-		margin-top:4px;
-		width: 24px;
-		height: 24px;
-		border:0;
+	a {
+		border-bottom: 0 !important;
 	}
 
-	.email-icon {
-		background: url( '/static/img/email.png' ) no-repeat;
-	}
-
-	.twitter-icon {
-		background: url( '/static/img/twitter.png' ) no-repeat;
-	}
-
-	.linkedin-icon {
-		background: url( '/static/img/linkedin.png' ) no-repeat;
-	}
-
-	@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-		.email-icon {
-			background: url( '/static/img/email-2x.png' ) no-repeat;
-			background-size: 24px 24px;
-		}
-
-		.twitter-icon {
-			background: url( '/static/img/twitter-2x.png' ) no-repeat;
-			background-size: 24px 24px;
-		}
-
-		.linkedin-icon {
-			background: url( '/static/img/linkedin-2x.png' ) no-repeat;
-			background-size: 24px 24px;
-		}
-	}
 }
 
 /* Header's inside article will have a nice code comment effect */
@@ -290,20 +255,6 @@ img {
 
 .selected {
 	color:#000 !important;
-}
-
-/* Content pages */
-.infopages {
-	margin-right:0;
-}
-
-.infopage {
-	padding-right:16px;
-	display:none;
-}
-
-.inview {
-	display:block !important;
 }
 
 /* Some special style for the news clipping page */
