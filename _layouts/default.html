@@ -2,6 +2,9 @@
 <div class='section'>
 	<div class='grid_7'>
 		<div class='article'>{{ content }}</div>
+		{% if page.last_updated %}
+		<div class='article'> Last updated: {{ page.last_updated }}</div>
+		{% endif %}
 	</div>
 	<div id='navbar' class='grid_5'>
 		<div class='ido selected'>

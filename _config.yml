@@ -5,12 +5,12 @@ lsi: false
 exclude: [ '*.sublime*', 'README.md' ]
 
 sass:
-    style: :compressed
+  style: :compressed
 
 defaults:
   -
     scope:
       path: ""
-      type: ""
+      type: "page"
     values:
       layout: "default"

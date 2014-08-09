@@ -1,5 +1,4 @@
 ---
-layout: default
 title: who am i?
 ---
 
