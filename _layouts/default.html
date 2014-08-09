@@ -7,7 +7,7 @@
 		{% endif %}
 	</div>
 	<div id='navbar' class='grid_5'>
-		<div class='ido selected'>
+		<div class='ido {% if page.path == 'index.md' %}selected{% endif %}'>
 			<a href='/'>
 				<div class='question-mark'>
 					who is this guy?
@@ -15,7 +15,7 @@
 			</a>
 		</div>
 
-		<div class='ido'>
+		<div class='ido {% if page.path == 'news/index.md' %}selected{% endif %}'>
 			<a href='/news'>
 				<div class='newspaper'>
 					me in the news.
@@ -23,7 +23,7 @@
 			</a>
 		</div>
 
-		<div class='ido'>
+		<div class='ido {% if page.path == 'research/index.md' %}selected{% endif %}'>
 			<a href='/research'>
 				<div class='radiation'>
 					i do science.
@@ -37,7 +37,7 @@
 			</a>
 		</div>
 
-		<div class='ido'>
+		<div class='ido {% if page.path =='tech/index.md' %}selected{% endif %}'>
 			<a href='/tech'>
 				<div class='gears'>&nbsp;</div>
 			</a>
