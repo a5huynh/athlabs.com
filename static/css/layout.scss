@@ -75,7 +75,7 @@ img {
 	color: $blue;
 	font-weight: normal;
 	font-family: $header-font;
-	margin-bottom:4px;
+	margin-bottom: 4px;
 }
 
 .article {
@@ -84,6 +84,7 @@ img {
 	line-height:   175%;
 	color:		   #000;
 	margin-bottom: 16px;
+	padding-right: 16px;
 }
 
 .footer {
@@ -225,10 +226,12 @@ img {
 
 /* Tab styles */
 .ido {
+	margin-left: -10px;
 	width: 398px;
 	cursor:pointer;
 	color: #DDD;
-	border-left:4px solid transparent;
+
+	border-left: 8px solid transparent;
 	margin-bottom:16px;
 
 	a {
@@ -245,7 +248,7 @@ img {
 }
 
 .ido:hover {
-	border-left:4px solid $grey !important;
+	border-left: 8px solid $grey !important;
 	color:#000 !important;
 
 	a {
