@@ -6,7 +6,7 @@ short_words = [ 'Scientist', 'Designer', 'Dinosaur', 'Developer', 'Blogger',
                 'Stargazer', 'Hacker', 'Climber' ]
 
 long_words  = [ 'Code Monkey', 'Caffeine Addict', 'Sarcastic Bastard',
-                'Aspiring Writer', 'Graduate Student', 'Guitar Player',
+                'Aspiring Writer', 'Entrepreneur', 'Guitar Player',
                 'Piano Player' ]
 
 get_random_int = ( min, max ) ->
