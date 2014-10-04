@@ -1,2 +1,5 @@
 _site/
 *.sublime*
+*.lock
+s3_website.yml
+
