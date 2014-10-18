@@ -1,0 +1,4 @@
+# Allow bots to index everything
+User-agent: *
+Disallow:
+
