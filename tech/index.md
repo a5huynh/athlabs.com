@@ -35,6 +35,7 @@ Here are links to the icons used:
   [The Noun Project](http://thenounproject.com),
   from The Noun Project collection.
 
+<p>&nbsp;</p>
 
 ## 960 Grid
 
