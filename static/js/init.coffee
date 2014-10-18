@@ -5,7 +5,7 @@
 short_words = [ 'Scientist', 'Designer', 'Dinosaur', 'Developer', 'Blogger',
                 'Stargazer', 'Hacker', 'Climber' ]
 
-long_words  = [ 'Code Monkey', 'Caffeine Addict', 'Sarcastic Bastard',
+long_words  = [ 'Code Monkey', 'Caffeine Addict', 'Sarcastic Guy',
                 'Aspiring Writer', 'Entrepreneur', 'Guitar Player',
                 'Piano Player' ]
 
