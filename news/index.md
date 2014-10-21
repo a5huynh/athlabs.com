@@ -43,7 +43,7 @@ clippings:
       -
         link: "http://calit2.net/newsroom/release.php?id=2074"
         title: "Calit2 Distributed Health Lab: Bringing Power of Prevention and Diagnosis to the People"
-        publication: Calit2 News Release=
+        publication: Calit2 News Release
       -
         link: "https://www.uplinq.com/mobile-codefest"
         title: Qualcomm CodeFest Winners
