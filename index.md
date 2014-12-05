@@ -10,6 +10,8 @@ the data engine that will power the sustainable economy.
 
 We've been through the [500 Startups](http://500.co) and [Code for America](http://www.codeforamerica.org) accelerators.
 
+Sometimes I [ramble](http://a5huynh.github.io) about things.
+
 ## a bit about my past
 
 From the time period of 2010-2014, I was a Ph.D student at the [University of California, San Diego](http://cse.ucsd.edu).
