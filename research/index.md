@@ -1,6 +1,6 @@
 ---
 title: i do science
-last_updated: 09-03-2013
+last_updated: 12-05-2014
 
 citations:
   -
@@ -22,6 +22,10 @@ citations:
         publication: 2014 Aerospace Conference Proceedings
         year: 2014
         authors: Huynh, A.; Eguchi, M.; Lin, A. Y.; Eguchi, R.
+        link:
+          title: ieeexplore
+          href: //ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6836457
+        
       -
         title: Mobile Analysis of Large Temporal Datasets for Exploration and Discovery.
         publication: 2013 DigitalHeritage Conference Proceedings
@@ -47,8 +51,8 @@ citations:
     title: journals
     items:
       -
-        title: "Crowdsourcing the Unknown: The Search for Genghis Khan"
-        publication: Under Review
+        title: "Crowdsourcing the Unknown: The Satellite Search for Genghis Khan"
+        publication: PLOS ONE
         authors: Lin, A., Huynh, A., Lanckriet, G., &amp; Barrington, L.
   -
     title: misc
