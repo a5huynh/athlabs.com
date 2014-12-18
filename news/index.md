@@ -60,6 +60,7 @@ clippings:
     year: 2011
     items:
       -
+        archive: "http://web.archive.org/web/20111103123200/http://developer.yahoo.com/blogs/ydn/posts/2011/09/yahoo-open-hack-all-stars-in-new-york-city/"
         link: "http://developer.yahoo.com/blogs/ydn/posts/2011/09/yahoo-open-hack-all-stars-in-new-york-city/"
         title: Yahoo! Open Hack All Stars in New York City
         publication: Yahoo! Developer Network
@@ -109,6 +110,9 @@ Articles are in reverse chronological order.
   {% for item in clip.items %}
   <li>
     <a href='{{ item.link }}'>{{ item.title }}</a>
+    {% if item.archive %}
+    <a class='archive' href='{{ item.archive }}'>archived</a>
+    {% endif %}
     <div class='caption'>{{ item.publication }}</div>
   </li>
   {% endfor %}
