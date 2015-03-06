@@ -1,0 +1,59 @@
+@import "_constants";
+
+#navbar {
+  margin-left:0;
+  font-size:24pt;
+  color: $black;
+
+  .ido div {
+    padding-left: 104px;
+  }
+
+  .question-mark {
+    background: url( '/static/img/question.png' ) no-repeat 32px 8px;
+  }
+
+  .newspaper {
+    background: url( '/static/img/newspaper.png' ) no-repeat 32px 8px;
+  }
+
+  .radiation {
+    background: url( '/static/img/science.png' ) no-repeat 32px 8px;
+  }
+
+  .github {
+    background: url( '/static/img/computer.png' ) no-repeat 32px 8px;
+    padding-left: 104px;
+  }
+
+  .gears {
+    background: url( '/static/img/gears.png' ) no-repeat 32px 8px;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+    .question-mark {
+      background: url( '/static/img/question-2x.png' ) no-repeat 32px 8px;
+      background-size: 48px 48px;
+    }
+
+    .newspaper {
+      background: url( '/static/img/newspaper-2x.png' ) no-repeat 32px 8px;
+      background-size: 48px 48px;
+    }
+
+    .radiation {
+      background: url( '/static/img/radiation-2x.png' ) no-repeat 32px 8px;
+      background-size: 48px 48px;
+    }
+
+    .github {
+      background: url( '/static/img/computer-2x.png' ) no-repeat 32px 8px;
+      background-size: 48px 48px;
+    }
+
+    .gears {
+      background: url( '/static/img/gears-2x.png' ) no-repeat 32px 8px;
+      background-size: 48px 48px;
+    }
+  }
+}

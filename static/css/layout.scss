@@ -3,6 +3,10 @@
 
 /* Import our HTML5 reset and 960 grid css */
 @import "_constants";
+@import "components/header";
+@import "components/footer";
+@import "components/nav";
+
 @import "_reset";
 @import "_960";
 
@@ -21,39 +25,48 @@
   color:white;
 }
 
-body > div {
-  margin-top:16px;
-}
-
-em {
-  color: $blue;
-}
-
-h2, h3, h4, .header {
-  font-family: $header-font;
-  /* A nice easy-to-use auto-clearing technique */
-  overflow: hidden;
-  width: 100%;
+body {
+  font-size: $content-size;
+  margin-top: 16px;
 }
 
 a, a:hover, a:active, a:visited {
   text-decoration: none;
   color: $blue;
-  border-bottom:1px dotted $grey;
+  border-bottom: 1px dotted $grey;
 
   .image {
     border: 0;
   }
 }
 
-img {
-  vertical-align: middle;
+em {
+  color: $blue;
 }
 
-#navbar {
-  margin-left:0;
-  font-size:24pt;
-  color: $black;
+h1, h2 {
+  font-family: $header-font;
+  font-weight: lighter;
+  color: $orange;
+  margin-bottom: 4px;
+}
+
+h1 {
+  font-size: $header-size;
+}
+
+h2 {
+  font-size: $header-size / $golden-ratio;
+
+  &:before {
+    content: '# ';
+    margin-left: -20px;
+  }
+
+}
+
+img {
+  vertical-align: middle;
 }
 
 #latest-work {
@@ -87,96 +100,6 @@ img {
   padding-right: 16px;
 }
 
-.footer {
-  color: #AAA;
-  font-size:12px;
-}
-
-#big-name {
-  border-right: 8px solid $orange;
-  font-size: 84px;
-
-  a {
-    border: 0;
-    text-decoration: none;
-    color: black;
-  }
-}
-
-#my-attrs {
-  float: left;
-  padding-left: 20px;
-  padding-top: 11px;
-  font-size: 32px;
-  width: 284px;
-  margin-right: 8px;
-}
-
-#navbar {
-
-  .ido div {
-    padding-left: 104px;
-  }
-
-  .question-mark {
-    background: url( '/static/img/question.png' ) no-repeat 32px 8px;
-  }
-
-  .newspaper {
-    background: url( '/static/img/newspaper.png' ) no-repeat 32px 8px;
-  }
-
-  .radiation {
-    background: url( '/static/img/science.png' ) no-repeat 32px 8px;
-  }
-
-  .github {
-    background: url( '/static/img/computer.png' ) no-repeat 32px 8px;
-    padding-left: 104px;
-  }
-
-  .gears {
-    background: url( '/static/img/gears.png' ) no-repeat 32px 8px;
-  }
-
-  @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-    .question-mark {
-      background: url( '/static/img/question-2x.png' ) no-repeat 32px 8px;
-      background-size: 48px 48px;
-    }
-
-    .newspaper {
-      background: url( '/static/img/newspaper-2x.png' ) no-repeat 32px 8px;
-      background-size: 48px 48px;
-    }
-
-    .radiation {
-      background: url( '/static/img/radiation-2x.png' ) no-repeat 32px 8px;
-      background-size: 48px 48px;
-    }
-
-    .github {
-      background: url( '/static/img/computer-2x.png' ) no-repeat 32px 8px;
-      background-size: 48px 48px;
-    }
-
-    .gears {
-      background: url( '/static/img/gears-2x.png' ) no-repeat 32px 8px;
-      background-size: 48px 48px;
-    }
-  }
-}
-
-#social-icons {
-  text-align: right;
-  padding-top: 8px;
-
-  a {
-    border-bottom: 0 !important;
-  }
-
-}
-
 /* Header's inside article will have a nice code comment effect */
 .article {
 
@@ -190,20 +113,6 @@ img {
     text-decoration: none;
     border-bottom:1px dotted $grey;
   }
-
-  h2:before {
-    content: '# ';
-  }
-
-  h2 {
-    font-family:  $header-font;
-    font-size:    26px;
-    font-weight:  normal;
-    color:      $orange;
-    padding:0;
-    margin: 0 0 8px 0;
-  }
-
 
   h3 {
     font-size: 20px;

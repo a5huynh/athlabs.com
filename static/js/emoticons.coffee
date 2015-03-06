@@ -7,9 +7,9 @@ emoticons =
   grin:   '<img src="/static/img/emoticons/emote_grin.png" />'
 
 patterns =
-  smile:  /// =] ///
-  tongue: /// =P ///
-  grin: /// =D ///
+  smile:  /// :] ///
+  tongue: /// :P ///
+  grin: /// :D ///
 
 $ ->
   # Replace smileys with actual smiley icons!
