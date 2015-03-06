@@ -1,6 +1,6 @@
 ---
 title: i do science
-last_updated: 12-05-2014
+last_updated: 2015-01-05
 
 citations:
   -
@@ -54,6 +54,14 @@ citations:
         title: "Crowdsourcing the Unknown: The Satellite Search for Genghis Khan"
         publication: PLOS ONE
         authors: Lin, A., Huynh, A., Lanckriet, G., &amp; Barrington, L.
+        year: 2014
+        links:
+          - 
+            title: article
+            href: //www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0114046
+          - 
+            title: pdf
+            href: "//www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0114046&amp;representation=PDF"
   -
     title: misc
     items:
