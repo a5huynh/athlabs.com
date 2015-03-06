@@ -4,6 +4,13 @@ last_updated: 08-09-2014
 
 clippings:
   -
+    year: 2015
+    items:
+      -
+        title: The Data Science of Supply Chain Sustainability
+        link: "http://bids.berkeley.edu/events/andrew-huynh-productbio"
+        publication: Berkeley Institute for Data Science
+  -
     year: 2014
     items:
       -
