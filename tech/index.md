@@ -25,7 +25,7 @@ the SVG format. Not much more I could ask for honestly.
 
 Here are links to the icons used:
 
-- [Information](http://thenounproject.com/noun/information/)
+- [Information](http://thenounproject.com/term/information/22)
 - [Newspaper](http://thenounproject.com/term/newspaper/397) by
   [The Noun Project](http://thenounproject.com), from The Noun Project collection.
 - [Radiation](http://thenounproject.com/term/radiation/182)
