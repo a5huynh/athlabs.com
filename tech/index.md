@@ -26,12 +26,12 @@ the SVG format. Not much more I could ask for honestly.
 Here are links to the icons used:
 
 - [Information](http://thenounproject.com/noun/information/)
-- [Newspaper](http://thenounproject.com/noun/newspaper/) by
+- [Newspaper](http://thenounproject.com/term/newspaper/397) by
   [The Noun Project](http://thenounproject.com), from The Noun Project collection.
 - [Radiation](http://thenounproject.com/noun/radiation/)
-- [Computer](http://thenounproject.com/noun/laptop/#icon-No114) by
+- [Computer](http://thenounproject.com/term/computer/114) by
   [The Noun Project](http://thenounproject.com), from The Noun Project collection.
-- [Gears](http://thenounproject.com/noun/gears/) by
+- [Gears](http://thenounproject.com/term/gears/179) by
   [The Noun Project](http://thenounproject.com),
   from The Noun Project collection.
 
