@@ -10,7 +10,7 @@ citations:
         title: Search and Discovery Through Human Computation
         publication: Handbook of Human Computation
         year: 2014
-        authors: Lin, A. Y. &amp; Huynh, A.
+        authors: Lin, A. Y.; Huynh, A.
         link:
           title: amazon
           href: //www.amazon.com/Handbook-Human-Computation-Pietro-Michelucci/dp/1461488052
@@ -30,12 +30,15 @@ citations:
         title: Mobile Analysis of Large Temporal Datasets for Exploration and Discovery.
         publication: 2013 DigitalHeritage Conference Proceedings
         year: 2013
-        authors: Huynh, A. &amp; Lin, A. Y.
+        authors: Huynh, A.; Lin, A. Y.
+        link:
+          title: ieeexplore
+          href: //ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6744822
       -
         title: Visual Analytics of Inherently Noisy Crowdsourced Data on Ultra High Resolution Displays
         publication: 2013 Aerospace Conference Proceedings
         year: 2013
-        authors: Huynh, A., Ponto, K., &amp; Lin, A. Y.
+        authors: Huynh, A.; Ponto, K.; Lin, A. Y.
         link:
           title: ieeexplore
           href: //ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6497421
@@ -43,7 +46,7 @@ citations:
         title: "Connecting the Dots: Triadic Clustering of Crowdsourced Data to Map Dirt Roads"
         publication: Proceedings of 21st International Conference on Pattern Recognition
         year: 2012
-        authors: Huynh, A., &amp; Lin, A.
+        authors: Huynh, A.; Lin, A.
         link:
           title: ieeexplore
           href:  //ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6460984
@@ -53,7 +56,7 @@ citations:
       -
         title: "Crowdsourcing the Unknown: The Satellite Search for Genghis Khan"
         publication: PLOS ONE
-        authors: Lin, A., Huynh, A., Lanckriet, G., &amp; Barrington, L.
+        authors: Lin, A.; Huynh, A.; Lanckriet, G.; Barrington, L.
         year: 2014
         links:
           - 
@@ -68,6 +71,7 @@ citations:
       -
         title: Crowdsourcing and Its Application to Cultural Heritage
         publication: Research Exam for University of California, San Diego.
+        authors: Huynh, A.
         year: 2013
         links:
           -
@@ -81,7 +85,7 @@ citations:
       -
         title: Customer-controlled point-of-sale on a mobile device
         publication: US 8751316 B1
-        authors: Jason Allen Fletchall, Dillon Campbell Compton, Kristina Lam Thai, Andrew Trung Huynh, Michael Harry Lintz
+        authors: Jason Allen Fletchall; Dillon Campbell Compton; Kristina Lam Thai; Andrew Trung Huynh; Michael Harry Lintz
         year: 2014
         link:
           title: patent
