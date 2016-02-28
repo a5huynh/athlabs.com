@@ -1,7 +1,14 @@
 safe: false
 lsi: false
 
-exclude: [ '*.sublime*', 'README.md' ]
+exclude: [
+  '.*',
+  '*.sublime*',
+  'Gemfile',
+  'Gemfile.lock',
+  's3_website.yml',
+  'README.md'
+]
 
 sass:
   style: :compressed
