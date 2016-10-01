@@ -1,47 +1,64 @@
-{% include header.html %}
-<div class='section'>
-	<div class='grid_7'>
-		<div class='article'>{{ content }}</div>
-		{% if page.last_updated %}
-		<div class='article'> Last updated: {{ page.last_updated }}</div>
-		{% endif %}
-	</div>
-	<div id='navbar' class='grid_5'>
-		<div class='ido {% if page.path == 'index.md' %}selected{% endif %}'>
-			<a href='/'>
-				<div class='question-mark'>
-					who is this guy?
-				</div>
-			</a>
-		</div>
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+  <title>{{ page.title }}</title>
 
-		<div class='ido {% if page.path == 'news/index.md' %}selected{% endif %}'>
-			<a href='/news'>
-				<div class='newspaper'>
-					me in the news.
-				</div>
-			</a>
-		</div>
+  <link type="text/plain" rel="author" href="http://athlabs.com/humans.txt" />
+  <link rel='shortcut icon' href='/favicon.ico'>
 
-		<div class='ido {% if page.path == 'research/index.md' %}selected{% endif %}'>
-			<a href='/research'>
-				<div class='radiation'>
-					i do science.
-				</div>
-			</a>
-		</div>
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata|Droid+Serif' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='/static/css/layout.css' type='text/css' rel='stylesheet'>
+</head>
+<body>
+<div class='container_12'>
+  {% include header.html %}
+  <div class='section'>
+    <div class='grid_7'>
+      <div class='article'>{{ content }}</div>
+      {% if page.last_updated %}
+      <div class='article'> Last updated: {{ page.last_updated }}</div>
+      {% endif %}
+    </div>
+    <div id='navbar' class='grid_5'>
+      <div class='ido {% if page.path == 'index.md' %}selected{% endif %}'>
+        <a href='/'>
+          <div class='question-mark'>
+            who is this guy?
+          </div>
+        </a>
+      </div>
 
-		<div class='ido'>
-			<a href='http://github.com/a5huynh'>
-				<div class='github'>i code.</div>
-			</a>
-		</div>
+      <div class='ido {% if page.path == 'news/index.md' %}selected{% endif %}'>
+        <a href='/news'>
+          <div class='newspaper'>
+            me in the news.
+          </div>
+        </a>
+      </div>
 
-		<div class='ido {% if page.path =='tech/index.md' %}selected{% endif %}'>
-			<a href='/tech'>
-				<div class='gears'>&nbsp;</div>
-			</a>
-		</div>
-	</div>
+      <div class='ido {% if page.path == 'research/index.md' %}selected{% endif %}'>
+        <a href='/research'>
+          <div class='radiation'>
+            i do science.
+          </div>
+        </a>
+      </div>
+
+      <div class='ido'>
+        <a href='http://github.com/a5huynh'>
+          <div class='github'>i code.</div>
+        </a>
+      </div>
+
+      <div class='ido {% if page.path =='tech/index.md' %}selected{% endif %}'>
+        <a href='/tech'>
+          <div class='gears'>&nbsp;</div>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
 {% include footer.html %}
+</body>
+</html>
