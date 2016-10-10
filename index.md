@@ -36,6 +36,6 @@ fantastic weather that blesses the San Diego biome.
 [quid]: http://quid.com
 [blog]: http://a5huynh.github.io
 
-[pbio-home]: https://web.archive.org/web/20160330062752/http://productbio.com/
+[pbio-page]: https://web.archive.org/web/20160330062752/http://productbio.com/
 
 [ucsd]: http://maps.googleapis.com/maps/api/staticmap?center=UCSD,La Jolla,CA&amp;zoom=14&amp;size=496x128&amp;markers=color:blue%7CUCSD,La Jolla,CA&amp;sensor=false
