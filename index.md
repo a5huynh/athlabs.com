@@ -5,7 +5,7 @@ title: who am i?
 ## a bit about me now
 
 Currently, I'm a senior software engineer at
-[Quid][quid] building key infrastructure and services to make it for
+[Quid][quid] building key infrastructure and services to make it easier for our 
 clients to search, analyze, and visualize the world's collective intelligence.
 
 Sometimes I [ramble][blog] about things.
