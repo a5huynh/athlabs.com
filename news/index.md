@@ -51,6 +51,7 @@ clippings:
         link: "http://calit2.net/newsroom/release.php?id=2278"
         publication: Calit2 News Release
       -
+        archive: "http://web.archive.org/web/20150112095247/http://www.cse.ucsd.edu/node/2391"
         title: "Ph.D. Student Leads Data Effort in Personal and Environmental Health Monitoring Initiative"
         link: "http://cse.ucsd.edu/node/2391"
         publication: UCSD CSE Department News
