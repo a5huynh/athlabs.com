@@ -47,6 +47,7 @@ clippings:
         link: "http://calit2.net/newsroom/article.php?id=2281"
         publication: Calit2 News Release
       -
+        archive: "http://web.archive.org/web/20161118040852/http://www.calit2.net/newsroom/release.php?id=2278"
         title: With 'Cool Gizmo,' Research Team Hopes Citizen-Sensors Will Improve World Health
         link: "http://calit2.net/newsroom/release.php?id=2278"
         publication: Calit2 News Release
@@ -56,6 +57,7 @@ clippings:
         link: "http://cse.ucsd.edu/node/2391"
         publication: UCSD CSE Department News
       -
+        archive: "http://web.archive.org/web/20150314032638/http://www.calit2.net/newsroom/release.php?id=2226"
         title: "Calit2 Research Scientist Albert Lin Teams with TopCoder, NASA"
         link: "http://www.calit2.net/newsroom/release.php?id=2226"
         publication: Calit2 News Release
@@ -63,6 +65,7 @@ clippings:
     year: 2012
     items:
       -
+        archive: "http://web.archive.org/web/20140812013731/http://calit2.net/newsroom/release.php?id=2074"
         link: "http://calit2.net/newsroom/release.php?id=2074"
         title: "Calit2 Distributed Health Lab: Bringing Power of Prevention and Diagnosis to the People"
         publication: Calit2 News Release
@@ -71,6 +74,7 @@ clippings:
         title: Qualcomm CodeFest Winners
         publication: Qualcomm Developer Network
       -
+        archive: "http://web.archive.org/web/20160815232147/http://ece.ucsd.edu/node/2714"
         link: "http://www.ece.ucsd.edu/node/2714"
         title: 2012 NSF IGERT Poster &amp; Video Competition Winner
         publication: UCSD ECE Department News
