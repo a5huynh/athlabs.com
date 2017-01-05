@@ -4,6 +4,20 @@ last_updated: 08-09-2014
 
 clippings:
   -
+    year: 2017
+    items:
+      -
+        title: Offset 2016 Uber/lyft Rides Today!
+        link: "https://carbonfund.org/2017/01/05/offset-2016-uberlyft-rides-today/"
+        publication: CarbonFund
+  -
+    year: 2016
+    items:
+      -
+        title: "Cheddar Life: Offset My Ride (44:00 minute mark)"
+        link: "https://cheddar.vhx.tv/cheddar-life/videos/cheddar-cheddar-life-s10-e122916-full-mezz-hd-en-us"
+        publication: Cheddar TV
+  -
     year: 2015
     items:
       -
