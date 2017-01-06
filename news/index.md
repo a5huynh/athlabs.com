@@ -1,8 +1,22 @@
 ---
 title: me in the news
-last_updated: 08-09-2014
+last_updated: 05-01-2017
 
 clippings:
+  -
+    year: 2017
+    items:
+      -
+        title: Offset 2016 Uber/lyft Rides Today!
+        link: "https://carbonfund.org/2017/01/05/offset-2016-uberlyft-rides-today/"
+        publication: CarbonFund
+  -
+    year: 2016
+    items:
+      -
+        title: "Cheddar Life: Offset My Ride (44:00 minute mark)"
+        link: "https://cheddar.vhx.tv/cheddar-life/videos/cheddar-cheddar-life-s10-e122916-full-mezz-hd-en-us"
+        publication: Cheddar TV
   -
     year: 2015
     items:
@@ -33,14 +47,17 @@ clippings:
         link: "http://calit2.net/newsroom/article.php?id=2281"
         publication: Calit2 News Release
       -
+        archive: "http://web.archive.org/web/20161118040852/http://www.calit2.net/newsroom/release.php?id=2278"
         title: With 'Cool Gizmo,' Research Team Hopes Citizen-Sensors Will Improve World Health
         link: "http://calit2.net/newsroom/release.php?id=2278"
         publication: Calit2 News Release
       -
+        archive: "http://web.archive.org/web/20150112095247/http://www.cse.ucsd.edu/node/2391"
         title: "Ph.D. Student Leads Data Effort in Personal and Environmental Health Monitoring Initiative"
         link: "http://cse.ucsd.edu/node/2391"
         publication: UCSD CSE Department News
       -
+        archive: "http://web.archive.org/web/20150314032638/http://www.calit2.net/newsroom/release.php?id=2226"
         title: "Calit2 Research Scientist Albert Lin Teams with TopCoder, NASA"
         link: "http://www.calit2.net/newsroom/release.php?id=2226"
         publication: Calit2 News Release
@@ -48,6 +65,7 @@ clippings:
     year: 2012
     items:
       -
+        archive: "http://web.archive.org/web/20140812013731/http://calit2.net/newsroom/release.php?id=2074"
         link: "http://calit2.net/newsroom/release.php?id=2074"
         title: "Calit2 Distributed Health Lab: Bringing Power of Prevention and Diagnosis to the People"
         publication: Calit2 News Release
@@ -56,6 +74,7 @@ clippings:
         title: Qualcomm CodeFest Winners
         publication: Qualcomm Developer Network
       -
+        archive: "http://web.archive.org/web/20160815232147/http://ece.ucsd.edu/node/2714"
         link: "http://www.ece.ucsd.edu/node/2714"
         title: 2012 NSF IGERT Poster &amp; Video Competition Winner
         publication: UCSD ECE Department News
