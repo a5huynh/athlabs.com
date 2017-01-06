@@ -1,7 +1,7 @@
 /* TEAM */
 Andrew Huynh
 twitter: @a5huynh
-email: andrew [at] productbio.com
+email: a5thuynh [at] gmail.com 
 location: San Francisco, CA
 
 /* SITE */
