@@ -31,12 +31,13 @@ From the time period of 2010-2014, I was a Ph.D student at the
 ![Where I am][ucsd]
 
 My focus was a combination of *human computation*, *computer vision* and
-*machine learning*. Despite that my interests cover everything from human-
-computer interaction and computer graphics to astronomy and astrophysics!
+*machine learning*. Despite that my interests cover everything from
+human-computer interaction and computer graphics to astronomy and
+astrophysics!
 
 A lot of my free time was spent hacking away at various
-[side projects](http://github.com/a5huynh), adventuring, or simply enjoying the
-fantastic weather that blesses the San Diego biome.
+[side projects](http://github.com/a5huynh), adventuring, or simply enjoying
+the fantastic weather that blesses the San Diego biome.
 
 [quid]: https://quid.com
 [blog]: https://a5huynh.github.io
