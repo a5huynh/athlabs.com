@@ -1,8 +1,10 @@
 safe: false
+incremental: true
 lsi: false
 
 exclude: [
   '.*',
+  '_config.yml',
   '*.sublime*',
   'Gemfile',
   'Gemfile.lock',
