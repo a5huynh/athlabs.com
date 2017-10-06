@@ -1,13 +1,25 @@
 // Words used in the traits swapper code
 var short_words = [
-  'Scientist', 'Designer', 'Dinosaur', 'Developer', 'Blogger',
-  'Stargazer', 'Hacker', 'Climber'
+  'Blogger',
+  'Climber',
+  'Designer',
+  'Developer',
+  'Dinosaur',
+  'Engineer',
+  'Hacker',
+  'Scientist',
+  'Stargazer'
 ];
 
 var long_words  = [
-  'Code Monkey', 'Caffeine Addict', 'Sarcastic Guy',
-  'Aspiring Writer', 'Entrepreneur', 'Guitar Player',
-  'Piano Player'
+  'Aspiring Writer',
+  'Caffeine Addict',
+  'Code Monkey',
+  'Entrepreneur',
+  'Guitar Player',
+  'Hardware Hacker',
+  'Piano Player',
+  'Sarcastic Guy'
 ];
 
 function get_random_int( min, max ) {
