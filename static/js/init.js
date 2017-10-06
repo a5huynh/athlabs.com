@@ -26,5 +26,5 @@ $( function() {
   setInterval( change_short_word, 5000 );
   setInterval( change_long_word, 7000 );
 
-  window.location.hash = '#heytheresexy';
+  window.location.hash = '#heytherefriend';
 });
