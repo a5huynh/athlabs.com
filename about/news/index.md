@@ -95,6 +95,7 @@ clippings:
         title: First IGERT Trainee Returns from Field Expedition
         publication: IGERT Announcements
       -
+        archive: "https://web.archive.org/web/20170112132626/http://exploration.nationalgeographic.com/mongolia/content/21st-century-approach-ground-surveying"
         link: "http://exploration.nationalgeographic.com/mongolia/content/21st-century-approach-ground-surveying"
         title: 21st Century Approach to Ground Surveying
         publication: National Geographic Exploration
