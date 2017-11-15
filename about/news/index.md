@@ -1,6 +1,6 @@
 ---
 title: me in the news
-last_updated: 05-01-2017
+last_updated: 2017/11/14
 
 clippings:
   -
