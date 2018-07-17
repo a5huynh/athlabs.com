@@ -1,13 +1,20 @@
 ---
 title: me in the news
-last_updated: 2017/11/14
+last_updated: 2019/07/17
 
 clippings:
+  -
+    year: 2018
+    items:
+      -
+        title: "Huckleberry: business insurance, guts, and the art of the pivot"
+        link: "https://medium.com/uncorkcapital/huckleberry-business-insurance-guts-and-the-art-of-the-pivot-2937a0461a75"
+        publication: Medium
   -
     year: 2017
     items:
       -
-        title: Offset 2016 Uber/lyft Rides Today!
+        title: Offset 2016 Uber/Lyft Rides Today!
         link: "https://carbonfund.org/2017/01/05/offset-2016-uberlyft-rides-today/"
         publication: CarbonFund
   -
