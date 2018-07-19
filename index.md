@@ -57,4 +57,4 @@ A lot of my free time was spent hacking away at various
 [side projects](http://github.com/a5huynh), adventuring, or simply enjoying
 the fantastic weather that blesses the San Diego biome.
 
-[ucsd]: http://maps.googleapis.com/maps/api/staticmap?center=UCSD,La Jolla,CA&amp;zoom=14&amp;size=496x128&amp;markers=color:blue%7CUCSD,La Jolla,CA&amp;sensor=false
+[ucsd]: http://maps.googleapis.com/maps/api/staticmap?center=UCSD,La%20Jolla,CA&zoom=14&size=496x128&markers=color:blue%7CUCSD,La%20Jolla,CA&sensor=false&key=AIzaSyCisivVvqxPdBjSV4QTjX2IQmQSwog2pUY
