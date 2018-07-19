@@ -28,6 +28,7 @@ clippings:
     year: 2015
     items:
       -
+        archive: "https://web.archive.org/web/20150408175044/http://bids.berkeley.edu/events/andrew-huynh-productbio"
         title: The Data Science of Supply Chain Sustainability
         link: "http://bids.berkeley.edu/events/andrew-huynh-productbio"
         publication: Berkeley Institute for Data Science
@@ -77,6 +78,7 @@ clippings:
         title: "Calit2 Distributed Health Lab: Bringing Power of Prevention and Diagnosis to the People"
         publication: Calit2 News Release
       -
+        archive: "https://web.archive.org/web/20131214164415/https://www.uplinq.com/schedule/mobile-codefest"
         link: "https://www.uplinq.com/mobile-codefest"
         title: Qualcomm CodeFest Winners
         publication: Qualcomm Developer Network
@@ -98,6 +100,7 @@ clippings:
         title: Yahoo! Open Hack All Stars in New York City
         publication: Yahoo! Developer Network
       -
+        archive: "https://web.archive.org/web/20140810110938/http://www.igert.org/announcements/167"
         link: "http://www.igert.org/announcements/167"
         title: First IGERT Trainee Returns from Field Expedition
         publication: IGERT Announcements
