@@ -1,0 +1,13 @@
+{
+  "name": "athlabs.com",
+  "version": "1.0.0",
+  "description": "Andrew Huynh's personal website",
+  "main": "index.md",
+  "repository": "git@github.com:a5huynh/athlabs.com.git",
+  "author": "Andrew Huynh <a5thuynh@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
+}

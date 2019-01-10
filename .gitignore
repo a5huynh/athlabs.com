@@ -1,8 +1,10 @@
 .DS_Store
 .jekyll-metadata
 .sass-cache
-_site/
 *.sublime*
-*.lock
 s3_website.yml
+Gemfile.lock
+
+_site/
+node_modules/
 

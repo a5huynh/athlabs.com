@@ -1,5 +1,6 @@
 ---
 ---
+@import "normalize-scss/sass/_normalize";
 
 /* Import our HTML5 reset and 960 grid css */
 @import "_constants";
@@ -7,7 +8,6 @@
 @import "components/footer";
 @import "components/nav";
 
-@import "_reset";
 @import "_960";
 
 *::selection {
