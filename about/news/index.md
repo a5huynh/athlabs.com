@@ -1,8 +1,13 @@
 ---
 title: me in the news
-last_updated: 2018/07/17
+last_updated: 2019/12/18
 
 clippings:
+  - year: 2019
+    items:
+      - title: "Huckleberry raises $18M to put small business insurance online"
+        link: "https://techcrunch.com/2019/12/18/huckleberry-raises-18m-to-put-small-business-insurance-online/"
+        publication: TechCrunch
   -
     year: 2018
     items:
@@ -22,7 +27,7 @@ clippings:
     items:
       -
         title: "Cheddar Life: Offset My Ride (44:00 minute mark)"
-        link: "https://cheddar.vhx.tv/cheddar-life/videos/cheddar-cheddar-life-s10-e122916-full-mezz-hd-en-us"
+        link: "https://cheddar.com/media/cheddar-life-december-29-2016"
         publication: Cheddar TV
   -
     year: 2015
@@ -38,11 +43,11 @@ clippings:
       -
         title: 500 Startups Accelerator Announces Its Tenth Batch Of Companies
         link: "http://techcrunch.com/2014/08/06/500-startups-accelerator-announces-its-tenth-batch-of-companies/"
-        publication: Techcrunch
+        publication: TechCrunch
       -
         title: Code For America Announces Five Companies For Accelerator Program
         link: "http://techcrunch.com/2014/07/10/code-for-america-announces-five-companies-for-accelerator-program/"
-        publication: Techcrunch
+        publication: TechCrunch
       -
         title: Crowdsourcing a Living Map of World Health
         link: "http://www.jacobsschool.ucsd.edu/news/news_releases/release.sfe?id=1470"
