@@ -43,11 +43,11 @@ clippings:
       -
         title: 500 Startups Accelerator Announces Its Tenth Batch Of Companies
         link: "http://techcrunch.com/2014/08/06/500-startups-accelerator-announces-its-tenth-batch-of-companies/"
-        publication: Techcrunch
+        publication: TechCrunch
       -
         title: Code For America Announces Five Companies For Accelerator Program
         link: "http://techcrunch.com/2014/07/10/code-for-america-announces-five-companies-for-accelerator-program/"
-        publication: Techcrunch
+        publication: TechCrunch
       -
         title: Crowdsourcing a Living Map of World Health
         link: "http://www.jacobsschool.ucsd.edu/news/news_releases/release.sfe?id=1470"
