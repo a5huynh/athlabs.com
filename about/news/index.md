@@ -3,9 +3,15 @@ title: me in the news
 last_updated: 2019/12/18
 
 clippings:
-  - year: 2019
+  -
+    year: 2019
     items:
-      - title: "Huckleberry raises $18M to put small business insurance online"
+      -
+        title: "Small Biz Insurance Purchasing Platform Huckleberry Announces $18 Series A Funding"
+        link: "https://cheddar.com/media/small-biz-insurance-purchasing-platform-huckleberry-announces-series-a-funding"
+        publication: Cheddar TV
+      -
+        title: "Huckleberry raises $18M to put small business insurance online"
         link: "https://techcrunch.com/2019/12/18/huckleberry-raises-18m-to-put-small-business-insurance-online/"
         publication: TechCrunch
   -
