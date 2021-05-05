@@ -6,7 +6,7 @@ title: the magic behind this site
 
 First off, a fancy badge:
 
-![HTML5 Powered with CSS3/Styling, and Semantics](http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png)
+![HTML5 Powered with CSS3/Styling, and Semantics](https://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png)
 
 "So how did he do it?" you ask. What sort of magical trickery is this? Well
 stay a while and listen. I'll explain the tech and resources behind the
