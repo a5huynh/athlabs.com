@@ -6,21 +6,24 @@ title: who am i?
 
 Sometimes I [ramble][blog] about things.
 
-Currently I head up data science efforts at [Huckleberry][hberry], helping
-build an end-to-end insurance company that uses a modern technology stack
-and novel applications of data science to improve the cost and efficiency
-of a typically expensive and slow process.
+Working on something ✨ new ✨.
 
 [blog]: https://a5huynh.github.io
-[hberry]: https://huckleberry.co
 
 ## a bit about my past
+
+I was Head of Data at [Huckleberry][hberry], helping build an end-to-end insurance
+company that uses a modern technology stack and novel applications of data science to
+improve the cost and efficiency of a typically expensive and slow process.
+
+* * *
 
 For fun, I and talented designer/good friend [Ian][ian-twitter] built a
 [simple service][omr] to automatically calculate and carbon offset your ride-shares.
 
 [ian-twitter]: https://twitter.com/ianjanicki
 [omr]: https://offsetmyride.io
+[hberry]: https://huckleberry.co
 
 * * *
 
